@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B19CF8C13637446006C0742 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B19CF8B13637446006C0742 /* splash.png */; };
+		8B44C0241361FA4200B3327F /* Dive.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C0231361FA4200B3327F /* Dive.m */; };
+		8B44C0281361FC4300B3327F /* NewDiveFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C0271361FC4300B3327F /* NewDiveFormViewController.m */; };
+		8B44C02E1362194700B3327F /* DivingFriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C02D1362194700B3327F /* DivingFriendsListViewController.m */; };
+		8B44C03213621B9D00B3327F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B44C03013621B9D00B3327F /* AddressBook.framework */; };
+		8B44C03313621B9D00B3327F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B44C03113621B9D00B3327F /* AddressBookUI.framework */; };
+		8B44C0361362493100B3327F /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C0351362493000B3327F /* Friend.m */; };
+		8B44C03C136261D400B3327F /* ObjectArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C03B136261D400B3327F /* ObjectArchiver.m */; };
+		8B44C03F136268FF00B3327F /* DivingsContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C03E136268FE00B3327F /* DivingsContainer.m */; };
+		8B44C04A13626EE600B3327F /* MyDivingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C04913626EE600B3327F /* MyDivingsTableViewCell.m */; };
+		8B44C04E1362730500B3327F /* MyDiveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C04D1362730500B3327F /* MyDiveDetailViewController.m */; };
+		8B44C050136274E300B3327F /* MyDiveDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B44C04F136274E300B3327F /* MyDiveDetailViewController.xib */; };
+		8B44C0531362DED400B3327F /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B44C0521362DED400B3327F /* checkmark.png */; };
+		8B8E0C111362FCFE00000F28 /* ConfigurationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E0C101362FCFE00000F28 /* ConfigurationsViewController.xib */; };
+		8B8E0C161363019700000F28 /* ConfigurationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E0C151363019700000F28 /* ConfigurationsController.m */; };
+		8BECDFA71360FB90002AC64D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BECDFA61360FB90002AC64D /* UIKit.framework */; };
+		8BECDFA91360FB90002AC64D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BECDFA81360FB90002AC64D /* Foundation.framework */; };
+		8BECDFAB1360FB90002AC64D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BECDFAA1360FB90002AC64D /* CoreGraphics.framework */; };
+		8BECDFB11360FB90002AC64D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BECDFAF1360FB90002AC64D /* InfoPlist.strings */; };
+		8BECDFB41360FB90002AC64D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECDFB31360FB90002AC64D /* main.m */; };
+		8BECDFB71360FB90002AC64D /* GolymAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECDFB61360FB90002AC64D /* GolymAppDelegate.m */; };
+		8BECDFBA1360FB90002AC64D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BECDFB81360FB90002AC64D /* MainWindow.xib */; };
+		8BECDFC11360FB90002AC64D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BECDFA61360FB90002AC64D /* UIKit.framework */; };
+		8BECDFC21360FB90002AC64D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BECDFA81360FB90002AC64D /* Foundation.framework */; };
+		8BECDFC31360FB90002AC64D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BECDFAA1360FB90002AC64D /* CoreGraphics.framework */; };
+		8BECDFCB1360FB90002AC64D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BECDFC91360FB90002AC64D /* InfoPlist.strings */; };
+		8BECDFCE1360FB90002AC64D /* GolymTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8BECDFCD1360FB90002AC64D /* GolymTests.h */; };
+		8BECDFD01360FB90002AC64D /* GolymTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECDFCF1360FB90002AC64D /* GolymTests.m */; };
+		8BECDFDB1360FFDC002AC64D /* MyDivingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECDFDA1360FFDC002AC64D /* MyDivingsViewController.m */; };
+		8BECDFDE136102EF002AC64D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECDFDD136102EF002AC64D /* LoginViewController.m */; };
+		8BECDFE413610D54002AC64D /* ConfigurationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BECDFE313610D54002AC64D /* ConfigurationsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BECDFC41360FB90002AC64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BECDF991360FB90002AC64D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BECDFA11360FB90002AC64D;
+			remoteInfo = Golym;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B19CF8B13637446006C0742 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		8B44C0221361FA4200B3327F /* Dive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dive.h; sourceTree = "<group>"; };
+		8B44C0231361FA4200B3327F /* Dive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dive.m; sourceTree = "<group>"; };
+		8B44C0261361FC4300B3327F /* NewDiveFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDiveFormViewController.h; sourceTree = "<group>"; };
+		8B44C0271361FC4300B3327F /* NewDiveFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDiveFormViewController.m; sourceTree = "<group>"; };
+		8B44C02C1362194700B3327F /* DivingFriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivingFriendsListViewController.h; sourceTree = "<group>"; };
+		8B44C02D1362194700B3327F /* DivingFriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivingFriendsListViewController.m; sourceTree = "<group>"; };
+		8B44C03013621B9D00B3327F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8B44C03113621B9D00B3327F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		8B44C0341362493000B3327F /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		8B44C0351362493000B3327F /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		8B44C03A136261D400B3327F /* ObjectArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectArchiver.h; sourceTree = "<group>"; };
+		8B44C03B136261D400B3327F /* ObjectArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectArchiver.m; sourceTree = "<group>"; };
+		8B44C03D136268FE00B3327F /* DivingsContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivingsContainer.h; sourceTree = "<group>"; };
+		8B44C03E136268FE00B3327F /* DivingsContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivingsContainer.m; sourceTree = "<group>"; };
+		8B44C04813626EE500B3327F /* MyDivingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDivingsTableViewCell.h; sourceTree = "<group>"; };
+		8B44C04913626EE600B3327F /* MyDivingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDivingsTableViewCell.m; sourceTree = "<group>"; };
+		8B44C04C1362730500B3327F /* MyDiveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDiveDetailViewController.h; sourceTree = "<group>"; };
+		8B44C04D1362730500B3327F /* MyDiveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDiveDetailViewController.m; sourceTree = "<group>"; };
+		8B44C04F136274E300B3327F /* MyDiveDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDiveDetailViewController.xib; sourceTree = "<group>"; };
+		8B44C0521362DED400B3327F /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		8B8E0C101362FCFE00000F28 /* ConfigurationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigurationsViewController.xib; sourceTree = "<group>"; };
+		8B8E0C141363019700000F28 /* ConfigurationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationsController.h; sourceTree = "<group>"; };
+		8B8E0C151363019700000F28 /* ConfigurationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationsController.m; sourceTree = "<group>"; };
+		8BECDFA21360FB90002AC64D /* Golym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Golym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BECDFA61360FB90002AC64D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BECDFA81360FB90002AC64D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BECDFAA1360FB90002AC64D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BECDFAE1360FB90002AC64D /* Golym-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Golym-Info.plist"; sourceTree = "<group>"; };
+		8BECDFB01360FB90002AC64D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BECDFB21360FB90002AC64D /* Golym-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Golym-Prefix.pch"; sourceTree = "<group>"; };
+		8BECDFB31360FB90002AC64D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BECDFB51360FB90002AC64D /* GolymAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolymAppDelegate.h; sourceTree = "<group>"; };
+		8BECDFB61360FB90002AC64D /* GolymAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolymAppDelegate.m; sourceTree = "<group>"; };
+		8BECDFB91360FB90002AC64D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8BECDFC01360FB90002AC64D /* GolymTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolymTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BECDFC81360FB90002AC64D /* GolymTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GolymTests-Info.plist"; sourceTree = "<group>"; };
+		8BECDFCA1360FB90002AC64D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BECDFCC1360FB90002AC64D /* GolymTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GolymTests-Prefix.pch"; sourceTree = "<group>"; };
+		8BECDFCD1360FB90002AC64D /* GolymTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolymTests.h; sourceTree = "<group>"; };
+		8BECDFCF1360FB90002AC64D /* GolymTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolymTests.m; sourceTree = "<group>"; };
+		8BECDFD91360FFDC002AC64D /* MyDivingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDivingsViewController.h; sourceTree = "<group>"; };
+		8BECDFDA1360FFDC002AC64D /* MyDivingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDivingsViewController.m; sourceTree = "<group>"; };
+		8BECDFDC136102EF002AC64D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8BECDFDD136102EF002AC64D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8BECDFE213610D54002AC64D /* ConfigurationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationsViewController.h; sourceTree = "<group>"; };
+		8BECDFE313610D54002AC64D /* ConfigurationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BECDF9F1360FB90002AC64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BECDFA71360FB90002AC64D /* UIKit.framework in Frameworks */,
+				8BECDFA91360FB90002AC64D /* Foundation.framework in Frameworks */,
+				8BECDFAB1360FB90002AC64D /* CoreGraphics.framework in Frameworks */,
+				8B44C03213621B9D00B3327F /* AddressBook.framework in Frameworks */,
+				8B44C03313621B9D00B3327F /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BECDFBC1360FB90002AC64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BECDFC11360FB90002AC64D /* UIKit.framework in Frameworks */,
+				8BECDFC21360FB90002AC64D /* Foundation.framework in Frameworks */,
+				8BECDFC31360FB90002AC64D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B44C02F1362194F00B3327F /* Novo Mergulho */ = {
+			isa = PBXGroup;
+			children = (
+				8B44C0261361FC4300B3327F /* NewDiveFormViewController.h */,
+				8B44C0271361FC4300B3327F /* NewDiveFormViewController.m */,
+				8B44C02C1362194700B3327F /* DivingFriendsListViewController.h */,
+				8B44C02D1362194700B3327F /* DivingFriendsListViewController.m */,
+			);
+			name = "Novo Mergulho";
+			sourceTree = "<group>";
+		};
+		8B44C04B1362709600B3327F /* Meus Mergulhos */ = {
+			isa = PBXGroup;
+			children = (
+				8BECDFD91360FFDC002AC64D /* MyDivingsViewController.h */,
+				8BECDFDA1360FFDC002AC64D /* MyDivingsViewController.m */,
+				8B44C04C1362730500B3327F /* MyDiveDetailViewController.h */,
+				8B44C04D1362730500B3327F /* MyDiveDetailViewController.m */,
+				8B44C04F136274E300B3327F /* MyDiveDetailViewController.xib */,
+				8B44C04813626EE500B3327F /* MyDivingsTableViewCell.h */,
+				8B44C04913626EE600B3327F /* MyDivingsTableViewCell.m */,
+			);
+			name = "Meus Mergulhos";
+			sourceTree = "<group>";
+		};
+		8B44C0511362DED400B3327F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8B19CF8B13637446006C0742 /* splash.png */,
+				8B44C0521362DED400B3327F /* checkmark.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B8E0C131362FFB900000F28 /* Configurações */ = {
+			isa = PBXGroup;
+			children = (
+				8BECDFE213610D54002AC64D /* ConfigurationsViewController.h */,
+				8BECDFE313610D54002AC64D /* ConfigurationsViewController.m */,
+				8B8E0C141363019700000F28 /* ConfigurationsController.h */,
+				8B8E0C151363019700000F28 /* ConfigurationsController.m */,
+				8B8E0C101362FCFE00000F28 /* ConfigurationsViewController.xib */,
+			);
+			name = "Configurações";
+			sourceTree = "<group>";
+		};
+		8BECDF971360FB90002AC64D = {
+			isa = PBXGroup;
+			children = (
+				8BECDFAC1360FB90002AC64D /* Golym */,
+				8BECDFC61360FB90002AC64D /* GolymTests */,
+				8BECDFA51360FB90002AC64D /* Frameworks */,
+				8BECDFA31360FB90002AC64D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BECDFA31360FB90002AC64D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BECDFA21360FB90002AC64D /* Golym.app */,
+				8BECDFC01360FB90002AC64D /* GolymTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BECDFA51360FB90002AC64D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B44C03013621B9D00B3327F /* AddressBook.framework */,
+				8B44C03113621B9D00B3327F /* AddressBookUI.framework */,
+				8BECDFA61360FB90002AC64D /* UIKit.framework */,
+				8BECDFA81360FB90002AC64D /* Foundation.framework */,
+				8BECDFAA1360FB90002AC64D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BECDFAC1360FB90002AC64D /* Golym */ = {
+			isa = PBXGroup;
+			children = (
+				8BECDFB51360FB90002AC64D /* GolymAppDelegate.h */,
+				8BECDFB61360FB90002AC64D /* GolymAppDelegate.m */,
+				8BECDFDC136102EF002AC64D /* LoginViewController.h */,
+				8BECDFDD136102EF002AC64D /* LoginViewController.m */,
+				8B44C0221361FA4200B3327F /* Dive.h */,
+				8B44C0231361FA4200B3327F /* Dive.m */,
+				8B44C0341362493000B3327F /* Friend.h */,
+				8B44C0351362493000B3327F /* Friend.m */,
+				8B44C03A136261D400B3327F /* ObjectArchiver.h */,
+				8B44C03B136261D400B3327F /* ObjectArchiver.m */,
+				8B44C03D136268FE00B3327F /* DivingsContainer.h */,
+				8B44C03E136268FE00B3327F /* DivingsContainer.m */,
+				8B44C04B1362709600B3327F /* Meus Mergulhos */,
+				8B44C02F1362194F00B3327F /* Novo Mergulho */,
+				8B8E0C131362FFB900000F28 /* Configurações */,
+				8BECDFB81360FB90002AC64D /* MainWindow.xib */,
+				8BECDFAD1360FB90002AC64D /* Supporting Files */,
+			);
+			path = Golym;
+			sourceTree = "<group>";
+		};
+		8BECDFAD1360FB90002AC64D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B44C0511362DED400B3327F /* images */,
+				8BECDFAE1360FB90002AC64D /* Golym-Info.plist */,
+				8BECDFAF1360FB90002AC64D /* InfoPlist.strings */,
+				8BECDFB21360FB90002AC64D /* Golym-Prefix.pch */,
+				8BECDFB31360FB90002AC64D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BECDFC61360FB90002AC64D /* GolymTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BECDFCD1360FB90002AC64D /* GolymTests.h */,
+				8BECDFCF1360FB90002AC64D /* GolymTests.m */,
+				8BECDFC71360FB90002AC64D /* Supporting Files */,
+			);
+			path = GolymTests;
+			sourceTree = "<group>";
+		};
+		8BECDFC71360FB90002AC64D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BECDFC81360FB90002AC64D /* GolymTests-Info.plist */,
+				8BECDFC91360FB90002AC64D /* InfoPlist.strings */,
+				8BECDFCC1360FB90002AC64D /* GolymTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BECDFA11360FB90002AC64D /* Golym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BECDFD31360FB90002AC64D /* Build configuration list for PBXNativeTarget "Golym" */;
+			buildPhases = (
+				8BECDF9E1360FB90002AC64D /* Sources */,
+				8BECDF9F1360FB90002AC64D /* Frameworks */,
+				8BECDFA01360FB90002AC64D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Golym;
+			productName = Golym;
+			productReference = 8BECDFA21360FB90002AC64D /* Golym.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BECDFBF1360FB90002AC64D /* GolymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BECDFD61360FB90002AC64D /* Build configuration list for PBXNativeTarget "GolymTests" */;
+			buildPhases = (
+				8BECDFBB1360FB90002AC64D /* Sources */,
+				8BECDFBC1360FB90002AC64D /* Frameworks */,
+				8BECDFBD1360FB90002AC64D /* Resources */,
+				8BECDFBE1360FB90002AC64D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BECDFC51360FB90002AC64D /* PBXTargetDependency */,
+			);
+			name = GolymTests;
+			productName = GolymTests;
+			productReference = 8BECDFC01360FB90002AC64D /* GolymTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BECDF991360FB90002AC64D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = LBSLocal;
+			};
+			buildConfigurationList = 8BECDF9C1360FB90002AC64D /* Build configuration list for PBXProject "Golym" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BECDF971360FB90002AC64D;
+			productRefGroup = 8BECDFA31360FB90002AC64D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BECDFA11360FB90002AC64D /* Golym */,
+				8BECDFBF1360FB90002AC64D /* GolymTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BECDFA01360FB90002AC64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BECDFB11360FB90002AC64D /* InfoPlist.strings in Resources */,
+				8BECDFBA1360FB90002AC64D /* MainWindow.xib in Resources */,
+				8B44C050136274E300B3327F /* MyDiveDetailViewController.xib in Resources */,
+				8B44C0531362DED400B3327F /* checkmark.png in Resources */,
+				8B8E0C111362FCFE00000F28 /* ConfigurationsViewController.xib in Resources */,
+				8B19CF8C13637446006C0742 /* splash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BECDFBD1360FB90002AC64D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BECDFCB1360FB90002AC64D /* InfoPlist.strings in Resources */,
+				8BECDFCE1360FB90002AC64D /* GolymTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BECDFBE1360FB90002AC64D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BECDF9E1360FB90002AC64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BECDFB41360FB90002AC64D /* main.m in Sources */,
+				8BECDFB71360FB90002AC64D /* GolymAppDelegate.m in Sources */,
+				8BECDFDB1360FFDC002AC64D /* MyDivingsViewController.m in Sources */,
+				8BECDFDE136102EF002AC64D /* LoginViewController.m in Sources */,
+				8BECDFE413610D54002AC64D /* ConfigurationsViewController.m in Sources */,
+				8B44C0241361FA4200B3327F /* Dive.m in Sources */,
+				8B44C0281361FC4300B3327F /* NewDiveFormViewController.m in Sources */,
+				8B44C02E1362194700B3327F /* DivingFriendsListViewController.m in Sources */,
+				8B44C0361362493100B3327F /* Friend.m in Sources */,
+				8B44C03C136261D400B3327F /* ObjectArchiver.m in Sources */,
+				8B44C03F136268FF00B3327F /* DivingsContainer.m in Sources */,
+				8B44C04A13626EE600B3327F /* MyDivingsTableViewCell.m in Sources */,
+				8B44C04E1362730500B3327F /* MyDiveDetailViewController.m in Sources */,
+				8B8E0C161363019700000F28 /* ConfigurationsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BECDFBB1360FB90002AC64D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BECDFD01360FB90002AC64D /* GolymTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BECDFC51360FB90002AC64D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BECDFA11360FB90002AC64D /* Golym */;
+			targetProxy = 8BECDFC41360FB90002AC64D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BECDFAF1360FB90002AC64D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BECDFB01360FB90002AC64D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BECDFB81360FB90002AC64D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BECDFB91360FB90002AC64D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8BECDFC91360FB90002AC64D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BECDFCA1360FB90002AC64D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BECDFD11360FB90002AC64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BECDFD21360FB90002AC64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8BECDFD41360FB90002AC64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golym/Golym-Prefix.pch";
+				INFOPLIST_FILE = "Golym/Golym-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BECDFD51360FB90002AC64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golym/Golym-Prefix.pch";
+				INFOPLIST_FILE = "Golym/Golym-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BECDFD71360FB90002AC64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Golym.app/Golym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GolymTests/GolymTests-Prefix.pch";
+				INFOPLIST_FILE = "GolymTests/GolymTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8BECDFD81360FB90002AC64D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Golym.app/Golym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GolymTests/GolymTests-Prefix.pch";
+				INFOPLIST_FILE = "GolymTests/GolymTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BECDF9C1360FB90002AC64D /* Build configuration list for PBXProject "Golym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BECDFD11360FB90002AC64D /* Debug */,
+				8BECDFD21360FB90002AC64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BECDFD31360FB90002AC64D /* Build configuration list for PBXNativeTarget "Golym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BECDFD41360FB90002AC64D /* Debug */,
+				8BECDFD51360FB90002AC64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BECDFD61360FB90002AC64D /* Build configuration list for PBXNativeTarget "GolymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BECDFD71360FB90002AC64D /* Debug */,
+				8BECDFD81360FB90002AC64D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BECDF991360FB90002AC64D /* Project object */;
+}
